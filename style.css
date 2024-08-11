@@ -16,22 +16,32 @@ h1 {
     text-align: center;
 }
 
-h2, h3 {
-    padding-left: 3rem  ;
-}
-
 article {
     padding: 1rem;
     max-width: 96vw;
     align-items: center;
 }
 
-section#description {
-    text-align: center;
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
-section#description p, h2 {
-    text-align: start;
+section#description {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+    /* text-align: center; */
+
+}
+
+section#description p {
+	padding-left: 3rem;
+    text-align: justify;
+	max-width: 90%;
 }
 
 section {
