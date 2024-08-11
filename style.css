@@ -73,13 +73,6 @@ li {
 .steps-list {
 	background-color: var(--bg-color-contrast-lighter);
 	border-radius: 3rem 1rem ;
-	padding-left: 5rem ;
-	padding-top: 2.5rem;
-	padding-right: 2.5rem;
 
 }	
  
-/* ol div li {
-	list-style-position:outside;
-} */
-
